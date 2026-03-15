@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalo App</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="splash">
+        <div class="mascot">👦</div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <h1>CHALO</h1>
+    </div>
+
+    <div id="app" class="hidden">
+        <header>
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+            <div class="logo">Chalo</div>
+        </header>
+
+        <main class="camera-view">
+            <div class="ar-overlay">AR Filter Active</div>
+            <div class="filter-slider">
+                <div class="filter-item">Trending</div>
+                <div class="filter-item">B&W</div>
+                <div class="filter-item">Neon</div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="nav-item"><i class="fas fa-compass"></i><span>Discover</span></div>
+            <div class="nav-item"><i class="fas fa-comment"></i><span>Chat</span></div>
+            <div class="upload-btn"><i class="fas fa-plus"></i></div>
+            <div class="nav-item"><i class="fas fa-magic"></i><span>Filters</span></div>
+            <div class="nav-item"><i class="fas fa-cog"></i><span>Settings</span></div>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
